@@ -60,5 +60,8 @@ public class MainE {
     public static void main(String[] args) throws IOException {
         LineReader reader = new LineReader(new InputStreamReader(System.in), MAX_LINE_SIZE);
         LineWriter writer = new LineWriter(new OutputStreamWriter(System.out));
+
+        reader.close();
+        writer.close();
     }
 }
