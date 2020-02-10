@@ -1,38 +1,15 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.io.Writer;
+import java.io.*;
 
 public class MainE {
-    private static final int MAX_LINE_SIZE = 100000;
-
     private static class LineReader {
         private final BufferedReader reader;
-        private final int maxReadLineSize;
 
-        private LineReader(Reader reader, int maxReadLineSize) {
+        private LineReader(Reader reader) {
             this.reader = new BufferedReader(reader);
-            this.maxReadLineSize = maxReadLineSize;
         }
 
-        private char[] readLine() throws IOException {
-            char[] res = new char[maxReadLineSize];
-            int count = 0;
-            while (true) {
-                int b = reader.read();
-                if (b == '\n' || b == -1) {
-                    break;
-                }
-                if (b == '\r') {
-                    continue;
-                }
-                res[count] = (char) b;
-                count++;
-            }
-            return res;
+        private int readSymbol() throws IOException {
+            return reader.read();
         }
 
         private void close() throws IOException {
@@ -47,8 +24,8 @@ public class MainE {
             this.writer = new BufferedWriter(writer);
         }
 
-        private void writeLine(char[] line) throws IOException {
-            writer.write(line);
+        private void writeLine(String s) throws IOException {
+            writer.write(s);
             writer.newLine();
         }
 
@@ -58,8 +35,36 @@ public class MainE {
     }
 
     public static void main(String[] args) throws IOException {
-        LineReader reader = new LineReader(new InputStreamReader(System.in), MAX_LINE_SIZE);
+        LineReader reader = new LineReader(new InputStreamReader(System.in));
         LineWriter writer = new LineWriter(new OutputStreamWriter(System.out));
+
+        int[] amountsFirstLine = new int[255];
+        while (true) {
+            int symbol = reader.readSymbol();
+            if (symbol == '\n' || symbol == -1) {
+                break;
+            }
+            amountsFirstLine[symbol]++;
+        }
+
+        int[] amountsSecondLine = new int[255];
+        while (true) {
+            int symbol = reader.readSymbol();
+            if (symbol == '\n' || symbol == -1) {
+                break;
+            }
+            amountsSecondLine[symbol]++;
+        }
+
+        boolean differenceFound = false;
+        for (int i = 0; i < 255; ++i) {
+            if (amountsFirstLine[i] != amountsSecondLine[i]) {
+                differenceFound = true;
+                break;
+            }
+        }
+
+        writer.writeLine(differenceFound ? "0" : "1");
 
         reader.close();
         writer.close();
