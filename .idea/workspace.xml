@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43ec124c-3ca1-4e41-a80c-dd7adbf53250" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainInterviewTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainE.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MainE">
+  <component name="RunManager" selected="Application.MainInterviewTask">
     <configuration name="MainC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainC" />
       <module name="YandexInterview" />
@@ -59,13 +58,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainInterviewTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainInterviewTask" />
+      <module name="YandexInterview" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainD" />
       <item itemvalue="Application.MainC" />
       <item itemvalue="Application.MainE" />
+      <item itemvalue="Application.MainInterviewTask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainInterviewTask" />
         <item itemvalue="Application.MainE" />
         <item itemvalue="Application.MainD" />
         <item itemvalue="Application.MainC" />
@@ -85,6 +93,7 @@
       <workItem from="1581319467127" duration="25775000" />
       <workItem from="1581347890059" duration="813000" />
       <workItem from="1581365059371" duration="1159000" />
+      <workItem from="1581584242993" duration="1102000" />
     </task>
     <servers />
   </component>
@@ -101,14 +110,19 @@
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581341546792" />
     <state x="2334" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581321035126" />
-    <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581325782531">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="544" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1581584663054">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="544" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581584663054" />
     <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581325782530" />
     <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581365141282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1581365141282" />
+    <state x="378" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581584863409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581584863409" />
     <state x="505" y="278" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1581344081828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -118,28 +132,28 @@
     </state>
     <state width="506" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581343914032" />
     <state width="438" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581328729114" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581366228419">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581585421476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581366228419" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581585421476" />
     <state width="1877" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581347859222" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581333889666" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581366228419">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581585421476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581366228419" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581585421476" />
     <state width="1877" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581347859222" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581333889665" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581366228419">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581585421475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581366228419" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581585421475" />
     <state width="1877" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581347859222" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581333889665" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581366228419">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581585421476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581366228419" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581585421476" />
     <state width="1877" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581347859222" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581333889666" />
     <state width="1877" height="354" key="GridCell.Tab.1.bottom" timestamp="1581347859222">
